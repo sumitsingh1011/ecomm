@@ -1,0 +1,39 @@
+   .descriptionbox {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 50px;
+    
+  }
+  
+  .descriptionbox-navigator {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .descriptionbox-nav-box {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .descriptionbox-nav-box.active {
+    color: blue;
+    border-bottom: 3px solid blue;
+  }
+  
+  .descriptionbox-nav-box.fade {
+    color: gray;
+  }
+  
+  .descriptionbox-description {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
